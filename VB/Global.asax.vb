@@ -21,7 +21,7 @@ Namespace Q505123
 		Private Sub page_PreInit(ByVal sender As Object, ByVal e As EventArgs)
 			Dim page As Page = TryCast(HttpContext.Current.CurrentHandler, Page)
 			If page IsNot Nothing AndAlso page.Request.Cookies("theme") IsNot Nothing Then
-				DevExpress.Web.ASPxClasses.ASPxWebControl.GlobalTheme = page.Request.Cookies("theme").Value
+				DevExpress.Web.ASPxWebControl.GlobalTheme = page.Request.Cookies("theme").Value
 			End If
 		End Sub
 	End Class

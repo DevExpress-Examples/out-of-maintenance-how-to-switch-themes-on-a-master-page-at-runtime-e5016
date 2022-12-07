@@ -19,7 +19,7 @@ namespace Q505123 {
         void page_PreInit(object sender, EventArgs e) {
             Page page = HttpContext.Current.CurrentHandler as Page;
             if (page != null && page.Request.Cookies["theme"] != null) {
-                DevExpress.Web.ASPxClasses.ASPxWebControl.GlobalTheme = page.Request.Cookies["theme"].Value;
+                DevExpress.Web.ASPxWebControl.GlobalTheme = page.Request.Cookies["theme"].Value;
             }
         }
     }

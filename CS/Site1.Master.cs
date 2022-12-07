@@ -1,4 +1,4 @@
-﻿using DevExpress.Web.ASPxClasses.Internal;
+﻿using DevExpress.Web.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;

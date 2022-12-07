@@ -1,5 +1,5 @@
 Imports Microsoft.VisualBasic
-Imports DevExpress.Web.ASPxClasses.Internal
+Imports DevExpress.Web.Internal
 Imports System
 Imports System.Collections.Generic
 Imports System.Linq
